@@ -20,4 +20,4 @@ public class FactoryMethodTest {
         card2.use();
         card3.use();
     }
-}g
+}
