@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by yoon on 15. 8. 12..
  */
-public class PrintBannerTest {
+public class AdapterTest {
     @Test
     public void type1() {
         adapter.type1.Print print = new adapter.type1.PrintBanner("Hello");
