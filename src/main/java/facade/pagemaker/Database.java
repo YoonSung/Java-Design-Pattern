@@ -1,5 +1,6 @@
 package facade.pagemaker;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -14,7 +15,7 @@ public class Database {
         String filename = dbname + ".txt";
         Properties prop = new Properties();
         try {
-            prop.load(new FileInputStream(filename));
+            prop.load(new FileInputStream("src/main/resources/" + filename));
         } catch (IOException e) {
             System.out.println("Warning: " + filename + " is not found.");
         }
